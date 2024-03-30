@@ -1,0 +1,174 @@
+body{
+background-image:url("background2.jpg");
+background-repeat: no-repeat;
+background-size: 1920px 950px;
+background-size:100%;
+background-size:cover;
+}
+.font{
+	width: 700px;
+	overflow: hidden;
+	margin: auto;
+	margin: 90 0 0 400px;
+	padding: 80px;
+	background: #faf8f8cd;
+	border-radius: 15px ;
+
+}
+.logosd{
+	background-color:white;
+	border: 3px solid white;
+	margin:0;
+	padding:0;
+	width: 10%;
+	height:10%;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+.font
+{
+	color:rgb(12, 12, 12);
+	font-size:24px;
+}
+
+
+
+.font2
+{
+	color:rgb(239, 217, 11);
+	font-size:30px;
+	text-align:center;
+	font-family:cursive;
+}
+
+		
+.logo{
+	margin: 0px 1px 0px 0px;
+	width: 7%;
+	height: 78px;
+	background-color: white;
+	border: 3px solid purple;
+	
+}	
+ul.menu{
+	
+	border: 3px solid purple;
+	list-style-type:none;
+	margin:0;
+	padding:2px 1px 1px 1px;
+	background-color:white;
+	overflow:hidden;
+	
+}
+
+.login{
+	background-color:white;
+	border: 2px solid white;
+	width: 5%;
+	height:6%;
+	padding:0px 0px 0px 0px;
+	
+	
+
+}
+.login1{
+	background-color:white;
+	padding:18px 2px 1px 1px;
+	width: 7%;
+	height:83px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 2px 0px 0px;
+
+}
+
+li.menu{
+	float:left;
+	padding:1px 1px 1px 45px;
+}
+
+
+li a{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 13px;
+	text-decoration:none;
+	margin: 0px 0px 0px 0px;
+}
+
+li a:hover{
+	background-color:brown;
+	
+}
+
+.productData{
+    background-color:white
+}
+
+.box{
+
+	width:800px;
+	height: 600px;
+	padding:0px 0px 0px 0px;
+	
+}	
+
+#tbl{
+	margin-top:15px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-right:10px;
+	
+}
+
+ul.unorder{
+      list-style:square;	
+}	
+
+
+
+div.layout {
+	margin: 8px 4px 4px 4px;
+
+}
+
+.bttn1{
+	margin: 4px 4px 4px 4px;
+	width: 10%;
+	height: 50px;
+	color:black;
+	border-radius: 15px;
+	background: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: 3px solid purple 
+}
+
+
+
+.bttn2{
+	float:right;
+	margin: 4px 4px 4px 4px;
+    background-color :transparent;
+	border:transparent;
+}
+.bttn3{
+	float :left;
+	margin : 4px 4px 4px 4px;
+	background-color :transparent;
+	border:transparent;
+}
+.productData{
+	
+	width: 700px;
+	overflow: hidden;
+	margin: auto;
+	color: aliceblue;
+	margin: 90 0 0 400px;
+	padding: 80px;
+	background: #1c1c1cf0;
+	border-radius: 15px ;
+	
+}

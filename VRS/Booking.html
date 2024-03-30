@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesnew.css" >
+<script src="Booking.js"> </script>
+<title> Booking </title>
+</head>
+
+<body>
+<h2 class="font2"><center> Vikalp Vehicle Rental Pvt.ltd </center></h2>
+
+ <img class="logo" src="car.png" style="float:left;" width=100 height=100 > 
+ <img class="login" src="user.png" style="float:right;" width=100 height=100 >
+ <button class="login1" style="float:right" width=100 height=100 onclick="location.href='Login.html';">Login</button>
+<ul class="menu">
+
+<h2>
+      <li class="menu"> <a href="home.html"> Home </a></li>
+      <li class="menu"> <a href="VehicleFleet.html"> Vehicle Fleet </a> </li>
+      
+      <li class="menu"> <a href="Services.html"> Service </a> </li>
+      <li class="menu"> <a href="New_register.html"> Register</a> </li>
+      <li class="menu"> <a href="About.html"> About </a> </li>
+      <li class="menu"> <a href="Contactus.html"> Contact Us </a> </li>
+	  
+
+</h2>
+</ul>
+
+ 
+<br> 
+<div class="layout">
+		<button class="bttn1" type="button" id="btn1" onclick="location.href='Booking.html';">Booking</button>
+		<button class="bttn1" type="button" id="btn1" onclick="location.href='feedback.html';">Feedback</button>
+</div>
+
+</div>
+<br>
+<br>
+<div class="Booking">
+<form action="booking.php" target="booking.php" method="POST" onsubmit="return Booking()">
+     <label>Pickup Location</label><br>
+	 <input type="text" id="location" name="location" style="width:250px;" placeholder="Enter the pickup location" required><br><br>
+	 Pickup Date<br>
+	<select name="pmonth">
+	<option value="month">Month</option>
+	<option value="january">January</option>
+	<option value="february">February</option>
+	<option value="march">March</option>
+	<option value="april">April</option>
+	<option value="may">May</option>
+	<option value="june">June</option>
+	<option value="july">July</option>
+	<option value="august">August</option>
+	<option value="september">September</option>
+	<option value="october">October</option>
+	<option value="november">November</option>
+	<option value="december">December</option>
+	</select>
+	<select name="pdate">
+	<option value="date">Date</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+	</select>
+	<select name="pyear">
+	<option value="year">Year</option>
+	<option value="2023">2023</option>
+	<option value="2024">2024</option>
+	<option value="2025">2025</option>
+	<option value="2026">2026</option>
+	<option value="2027">2027</option>
+	<option value="2028">2028</option>
+	<option value="2029">2029</option>
+	<option value="2030">2030</option>
+	</select>
+	<center>
+    <label time">Pickup Time:</label>
+    <input type="time" id="lname" name="ptime"><br><br>
+	</center>
+  
+	Return Date<br>
+	<select name="rmonth">
+	<option value="month">Month</option>
+	<option value="january">January</option>
+	<option value="february">February</option>
+	<option value="march">March</option>
+	<option value="april">April</option>
+	<option value="may">May</option>
+	<option value="june">June</option>
+	<option value="july">July</option>
+	<option value="august">August</option>
+	<option value="september">September</option>
+	<option value="october">October</option>
+	<option value="november">November</option>
+	<option value="december">December</option>
+	</select>
+	<select name="rdate">
+	<option value="date">Date</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+	</select>
+	<select name="ryear">
+	<option value="year">Year</option>
+	<option value="2023">2023</option>
+	<option value="2024">2024</option>
+	<option value="2025">2025</option>
+	<option value="2026">2026</option>
+	<option value="2027">2027</option>
+	<option value="2028">2028</option>
+	<option value="2029">2029</option>
+	<option value="2030">2030</option>
+	</select><br>
+	<center>
+	  <label time>Return Time:</label>
+    <input type="time" id="lname" name="rtime"><br><br>
+    </center>
+	Number of Dates<br>
+    <input type="text" id="lname" name="NOfDates" style="width:150px;" placeholder="Number of Dates" required ><br>
+	<center>
+	<label>Vehicle type:<br></label>
+	<select name="vehicle"required>
+	<option value="vehicle type">Vehicle type</option>
+	<option value="Luxury Car">Luxury Car</option>
+	<option value="Premium Car">Premium Car</option>
+	<option value="General Car">General Car</option>
+	<option value="Buses and Van">Buses and Van</option>
+	<option value="TukTuk/Threewheelers">TukTuk/Threewheelers</option>
+	</select><br>
+	</center>
+	
+	Currency Type<br>
+	<select name="currency"required>
+	<option value="Currency">Currency</option>
+	<option value="Indian Rupees(lkr)"> Rupees(inr)</option>
+	<option value="Dollars($)">Dollars($)</option>
+	<option value="Euro(EUR)">Euro(EUR)</option>
+	</select>
+    <button class="submit" type="SUBMIT"> SUBMIT</button>
+	</form>
+	<br><br><br><br>
+</body>
+</html>

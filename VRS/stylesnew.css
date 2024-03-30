@@ -1,0 +1,188 @@
+body{
+background-image:url("background2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+* {
+  box-sizing: border-box;
+}
+.font2{
+	font-family:cursive;
+	color: yellow;
+	text-align:center;
+	font-size:30px;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "wrap";
+  clear: both;
+  display: table;
+} 
+
+ 
+
+.font
+{
+	color:white;
+	font-size:24px;
+}
+.font4
+{
+	color:white;
+	font-size:30px;
+	font-family:CommercialScript BT
+}
+.submit
+{
+	background:blue;
+}
+
+.logo{
+	margin: 0px 1px 0px 0px;
+	width: 7%;
+	height: 78px;
+	background-color: white;
+	border: 3px solid purple;
+	
+}
+
+.login{
+	background-color:white;
+	border: 2px solid white;
+	width: 5%;
+	height:6%;
+	padding:0px 0px 0px 0px;
+	
+
+}
+.login1{
+	background-color:white;
+	padding:18px 2px 1px 1px;
+	width: 7%;
+	height:83px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 2px 0px 0px;
+
+}
+
+ul.menu{
+	
+	border: 3px solid purple;
+	list-style-type:none;
+	margin:0;
+	padding:1px 1px 1px 1px;
+	background-color:white;
+	overflow:hidden;
+	
+}
+
+li.menu{
+	float:left;
+	padding:1px 1px 1px 45px;
+}
+
+
+li a{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 13px;
+	text-decoration:none;
+	margin: 0px 0px 0px 0px;
+}
+
+li a:hover{
+	background-color:brown;
+	
+}
+
+.productData{
+    background-color:white
+}
+.box{
+
+	width:1200px;
+	height: 810px;
+	padding:0px 0px 0px 0px;
+	
+}	
+
+
+
+#tbl{
+	margin-top:15px;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-right:10px;
+	
+}
+
+ul.unorder{
+      list-style:square;	
+}	
+
+	
+a.footer{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}	
+
+div.layout {
+	margin: 8px 4px 4px 4px;
+
+}
+.Booking{
+	background-color:grey;
+	padding:82px;
+	width:450px;
+	margin:auto;
+	margin-top:25px;
+	height:500px;
+	margin-left:250px;
+}
+
+.bttn1{
+	margin: 4px 4px 4px 4px;
+	width: 10%;
+	height: 50px;
+	color:black;
+	border-radius: 15px;
+	background: #white;
+	font-size: 16px;
+	font-weight: bold;
+	border: 3px solid purple 
+}
+
+
+
+.bttn2{
+	float:right;
+	margin: 4px 4px 4px 4px;
+    background-color :transparent;
+	border:transparent;
+}
+.bttn3{
+	float :left;
+	margin : 4px 4px 4px 4px;
+	background-color :transparent;
+	border:transparent;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border:3px solid black;
+}

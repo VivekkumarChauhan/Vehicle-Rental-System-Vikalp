@@ -1,0 +1,129 @@
+body{
+background-image:url("back.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+}
+ 	
+.font{
+	font-family:cursive;
+	color: yellow;
+	text-align:center;
+	font-size:40px;
+}
+
+.logo{
+	margin: 0px 1px 0px 0px;
+	width: 7%;
+	height: 78px;
+	background-color: white;
+	border: 3px solid purple;
+	
+}
+
+.login{
+	background-color:white;
+	border: 2px solid white;
+	width: 5%;
+	height:6%;
+	padding:0px 0px 0px 0px;
+	
+	
+
+}
+.login1{
+	background-color:white;
+	padding:18px 2px 1px 1px;
+	width: 7%;
+	height:83px;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 2px 0px 0px;
+
+}
+	
+ul.menu{
+	border: 3px solid purple;
+	list-style-type:none;
+	margin:0;
+	padding:1px 1px 1px 1px;
+	background-color:white;
+	overflow:hidden;
+	
+}
+
+li.menu{
+	float:left;
+	padding:1px 1px 1px 45px;
+}
+
+
+li a{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:14px 13px;
+	text-decoration:none;
+	margin: 0px 0px 0px 0px;
+}
+
+li a:hover{
+	background-color:brown;
+	
+}
+
+ul.unorder{
+      list-style:square;	
+}	
+
+div.layout {
+	margin: 8px 4px 4px 4px;
+
+}
+
+
+ul.unorder{
+      list-style:square;	
+}	
+
+
+.frame{
+	background: #D3D3D3;
+	padding: 40px;
+	width: 400px;
+	margin: auto;
+	margin-top: 50px;
+	height: 550px;
+	margin-left: 450px;
+}	
+
+.log{
+
+	background:gray;
+	width: 100px;
+	border: 3px solid purple;
+	
+
+}
+
+.set{
+	
+	border: 3px solid purple;
+	
+}
+
+
+
+.bttn2{
+	float:right;
+	margin: 4px 4px 4px 4px;
+    background-color :transparent;
+	border:transparent;
+	
+}
+.bttn3{
+	float :left;
+	margin : 4px 4px 4px 4px;
+	background-color :transparent;
+	border:transparent;
+}
+

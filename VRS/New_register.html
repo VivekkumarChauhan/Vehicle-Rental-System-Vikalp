@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="New_register.css">
+  <script src="New_register.js"></script>
+  <title>New Register</title>
+</head>
+<body>
+  <h2 class="font">Vikalp Vehicle Rental Pvt. Ltd</h2>
+  <img class="logo" src="car.png" style="float: left;" width="100" height="80">
+  <img class="login" src="user.png" style="float: right" width="100" height="100">
+  <button class="login1" style="float: right" width="100" height="100" onclick="location.href='login.html';">Log in</button>
+  <ul class="menu">
+    <h2>
+      <li class="menu"><a href="home.html">Home</a></li>
+      <li class="menu"><a href="VehicleFleet.html">Vehicle Fleet</a></li>
+      <li class="menu"><a href="Services.html">Service</a></li>
+      <li class="menu"><a href="New_register.html">Register</a></li>
+      <li class="menu"><a href="About.html">About</a></li>
+      <li class="menu"><a href="Contactus.html">Contact Us</a></li>
+    </h2>
+  </ul>
+  <br>
+  <div class="layout">
+    <button class="bttn1" type="button" id="btn1" onclick="location.href='Booking.html';">Booking</button>
+    <button class="bttn1" type="button" id="btn1" onclick="location.href='feedback.html';">Feedback</button>
+  </div>
+  <center>  <div class="box">
+      <div class="productData">
+        <form action="new_register.php" onsubmit="return checkPassword()" method="POST" style="border-style: groove;" target="_self">
+          <h1 style="color: navy;">New Registration</h1>
+          <input type="image" src="user.png" style="float: center;" width="120" height="100">
+          <br>
+          <b>
+            <label for="fname">Full Name</label><br>
+            <input type="text" class="log" id="fname" name="fname" style="width: 350px;" placeholder="Enter your full name here" required><br><br>
+            Address<br>
+            <textarea class="log" id="ads" name="add" rows="5" cols="50" style="width: 350px;"></textarea><br><br>
+            Mobile Number<br>
+            <input type="text" class="log" id="mobile" name="mobile" style="width: 350px;" pattern="[0-9]{10}" placeholder="07xxxxxxxx" required><br><br>
+            Email<br>
+            <input type="text" class="log" id="email" name="email" style="width: 350px;" pattern="[a-zA-Z0-9#%_+-]+@[a-z0-9]+\.[a-z]{2,3}" placeholder="Email" required><br><br>
+            Password<br>
+            <input type="password" class="log" id="rpw" name="rpw" style="width: 350px;" pattern="[a-zA-Z0-9@#$%^&*]{6,12}" placeholder="6-12 characters" required><br><br>
+            Confirm Password<br>
+            <input type="password" class="log" id="pw" name="pw" style="width: 350px;" pattern="[a-zA-Z0-9@#$%^&*]{6,12}" placeholder="6-12 characters" required><br><br>
+            <button class="set" type="Submit" onclick="location.href='home.html';">SUBMIT</button>
+            
+            <input type="reset" class="set" name="reset" value="Reset" id="reset"><br><br>
+            <a href="" style="color: navy;">Go Back To Home Page</a><br />
+          </b>
+        </form>
+      </div>
+    </div>
+  </center>
+  
+</body>
+</html>
