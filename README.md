@@ -1,3 +1,3 @@
 # Vikalp
 ## overview 
-- A vehicle renting website 
+- A vehicle renting website for everyone 
